@@ -1,0 +1,9 @@
+Z:\2026\Programacion\TP01_Dana_Grinblat_Poniachik\obj\Debug\net9.0\rpswa.dswa.cache.json
+Z:\2026\Programacion\TP01_Dana_Grinblat_Poniachik\obj\Debug\net9.0\TP01_Dana_Grinblat_Poniachik.GeneratedMSBuildEditorConfig.editorconfig
+Z:\2026\Programacion\TP01_Dana_Grinblat_Poniachik\obj\Debug\net9.0\TP01_Dana_Grinblat_Poniachik.AssemblyInfoInputs.cache
+Z:\2026\Programacion\TP01_Dana_Grinblat_Poniachik\obj\Debug\net9.0\TP01_Dana_Grinblat_Poniachik.AssemblyInfo.cs
+Z:\2026\Programacion\TP01_Dana_Grinblat_Poniachik\obj\Debug\net9.0\TP01_Dana_Grinblat_Poniachik.csproj.CoreCompileInputs.cache
+Z:\2026\Programacion\TP01_Dana_Grinblat_Poniachik\obj\Debug\net9.0\TP01_Dana_Grinblat_Poniachik.MvcApplicationPartsAssemblyInfo.cache
+Z:\2026\Programacion\TP01_Dana_Grinblat_Poniachik\obj\Debug\net9.0\TP01_Dana_Grinblat_Poniachik.RazorAssemblyInfo.cache
+Z:\2026\Programacion\TP01_Dana_Grinblat_Poniachik\obj\Debug\net9.0\TP01_Dana_Grinblat_Poniachik.RazorAssemblyInfo.cs
+Z:\2026\Programacion\TP01_Dana_Grinblat_Poniachik\obj\Debug\net9.0\TP01_Dana_Grinblat_Poniachik.sourcelink.json
