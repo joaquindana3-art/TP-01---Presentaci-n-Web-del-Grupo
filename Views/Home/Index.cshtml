@@ -7,10 +7,13 @@
 </head>
 <div class="text-center">
     <h1 class="display-4">La Romineta</h1>
-    <img src="romivaga.png" alt = "Logo"/>
-    @foreach(Integrante integrante in grupo.DevolverIntegrantes()) {
+    <img src="~/img/romivaga.png" alt = "Logo"/>
+    <ul>
+    @foreach(Integrante integrante in ViewBag.grupo.DevolverIntegrantes().Values) {
 
-        <p>@integrante.getNombre()</p>
-
+        
+        <li> <a href='@Url.Action("SelectIntegrante", "Home", new { dni = integrante.getDNI()})'>@integrante.getNombre()</a> </li>
+        
     }
+    </ul>
 </div>

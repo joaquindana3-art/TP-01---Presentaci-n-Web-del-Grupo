@@ -25,9 +25,38 @@ public class Integrante
 
     }
 
+    public int getDNI() {
 
+        return this.DNI;
 
+    }
 
+    public string mostrarInfo() {
 
+        string msg = "";
+        msg += "DNI: " + DNI;
+        msg += "\n Nombre: " + nombre;
+        msg += "\n Fecha de nacimiento: " + fechaDeNacimiento.Day + "/" + fechaDeNacimiento.Month + "/" + fechaDeNacimiento.Year;
+        msg += "\n Familiares: ";
+        for (int i = 0; i < familiares.Count; i++) {
+
+            msg += familiares[i];
+
+        }
+        msg += "\n Intereses: ";
+        for (int i = 0; i < intereses.Count; i++) {
+
+            msg += intereses[i];
+
+        }
+        return msg;
+
+    }
+
+    public string getFoto() {
+
+        return foto;
+
+    }
 
 }

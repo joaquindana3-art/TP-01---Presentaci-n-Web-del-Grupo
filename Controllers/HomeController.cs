@@ -29,7 +29,7 @@ public class HomeController : Controller
         Integrante integrante = grupo.getIntegrante(dni);
         ViewBag.integrante = integrante;
         ViewBag.dni = dni;
-        return RedirectToAction("infoIntegrante", "Home");
+        return View("infoIntegrante");
         
     }
 
