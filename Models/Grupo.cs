@@ -14,29 +14,44 @@ public class Grupo
     {
 
         List<string> familiares = new List<string>();
-        familiares.Add("Cintia Dorfman", "Juan Poniachik", "Micaela Poniachik");
+        familiares.Add("Cintia Dorfman");
+        familiares.Add("Juan Poniachik");
+        familiares.Add("Micaela Poniachik");
         List<string> intereses = new List<string>();
-        intereses.Add("Futbol", "Haxball", "San Lorenzo");
-        Integrante integrante1 = new Integrante(50235406, "Martin Poniachik", 06/05/2010, "fotoponia.png", familiares, intereses);
+        intereses.Add("Futbol");
+        intereses.Add("Haxball");
+        intereses.Add("San Lorenzo");
+        DateTime date = new DateTime(2010, 05, 06);
+        Integrante integrante1 = new Integrante(50235406, "Martin Poniachik", date, "fotoponia.png", familiares, intereses);
         integrantes.Add(50235406, integrante1);
 
         List<string> familiares1 = new List<string>();
-        familiares.Add("Patricia Goldstein", "Damian Grinblat", "Tomas Grinblat");
+        familiares.Add("Patricia Goldstein");
+        familiares.Add("Damian Grinblat");
+        familiares.Add("Tomas Grinblat");
         List<string> intereses1 = new List<string>();
-        intereses.Add("Padel", "HaxBall", "River Plate");
-        Integrante integrante2 = new Integrante(50031293, "Alejo Grinblat", 17/12/2009, "fotoalejo.jpg", familiares1, intereses1);
+        intereses.Add("HaxBall");
+        intereses.Add("Padel");
+        intereses.Add("River Plate");
+        DateTime date1 = new DateTime(2009, 12, 17);
+        Integrante integrante2 = new Integrante(50031293, "Alejo Grinblat", date1, "fotoalejo.jpg", familiares1, intereses1);
         integrantes.Add(50031293, integrante2);
 
         List<string> familiares2 = new List<string>();
-        familiares.Add("Sabrina Szlit", "Fabio Dana", "Ezequiel Dana");
+        familiares.Add("Sabrina Szlit");
+        familiares.Add("Fabio Dana");
+        familiares.Add("Ezequiel Dana");
         List<string> intereses2 = new List<string>();
-        intereses.Add("Metal", "Boca", "Minecraft");
-        Integrante integrante3 = new Integrante(50705111, "Joaquin Dana", 5/4/2010, "fotoalejo.jpg", familiares2, intereses2);
+        intereses.Add("Metal");
+        intereses.Add("Boca");
+        intereses.Add("Minecraft");
+        DateTime date2 = new DateTime(2010, 04, 05);
+        Integrante integrante3 = new Integrante(50705111, "Joaquin Dana", date2, "fotodana.jpg", familiares2, intereses2);
         integrantes.Add(50705111, integrante3);
         
 
     }
-    public Dic<int, Integrante> DevolverIntegrantes()
+    public Dictionary<int, Integrante> DevolverIntegrantes()
     {
         return integrantes;
     }

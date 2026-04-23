@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\50705111\\.nuget\\packages\\": {},
+    "C:\\Users\\50031293\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\2026\\Programacion\\TP01_Dana_Grinblat_Poniachik\\TP01_Dana_Grinblat_Poniachik.csproj",
+      "projectUniqueName": "C:\\Users\\50031293\\Downloads\\TP-01---Presentaci-n-Web-del-Grupo\\TP01_Dana_Grinblat_Poniachik.csproj",
       "projectName": "TP01_Dana_Grinblat_Poniachik",
-      "projectPath": "Z:\\2026\\Programacion\\TP01_Dana_Grinblat_Poniachik\\TP01_Dana_Grinblat_Poniachik.csproj",
-      "packagesPath": "C:\\Users\\50705111\\.nuget\\packages\\",
-      "outputPath": "Z:\\2026\\Programacion\\TP01_Dana_Grinblat_Poniachik\\obj\\",
+      "projectPath": "C:\\Users\\50031293\\Downloads\\TP-01---Presentaci-n-Web-del-Grupo\\TP01_Dana_Grinblat_Poniachik.csproj",
+      "packagesPath": "C:\\Users\\50031293\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\50031293\\Downloads\\TP-01---Presentaci-n-Web-del-Grupo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\50705111\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\50031293\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

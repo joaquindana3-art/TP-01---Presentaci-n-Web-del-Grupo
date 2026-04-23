@@ -9,7 +9,7 @@ public class Integrante
     private List<string> familiares = new List<string>();
     private List<string> intereses = new List<string>();
 
-    public Integrante(int DNI, string nombre, date fechaDeNacimiento, string foto, List<string> familiares, List<string> intereses)
+    public Integrante(int DNI, string nombre, DateTime fechaDeNacimiento, string foto, List<string> familiares, List<string> intereses)
     {
         this.DNI = DNI;
         this.nombre = nombre;
@@ -19,7 +19,11 @@ public class Integrante
         this.intereses = intereses;
     }
 
+    public string getNombre() {
 
+        return nombre;
+
+    }
 
 
 

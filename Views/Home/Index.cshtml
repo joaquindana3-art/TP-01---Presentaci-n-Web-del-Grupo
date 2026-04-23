@@ -7,6 +7,10 @@
 </head>
 <div class="text-center">
     <h1 class="display-4">La Romineta</h1>
-    <img src="wwwroot\img\ort.jfif" alt = "Logo"/>
-    <p></p>
+    <img src="romivaga.png" alt = "Logo"/>
+    @foreach(Integrante integrante in grupo.DevolverIntegrantes()) {
+
+        <p>@integrante.getNombre()</p>
+
+    }
 </div>
