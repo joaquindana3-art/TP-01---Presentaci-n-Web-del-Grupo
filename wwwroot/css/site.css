@@ -1,3 +1,6 @@
+*  {
+  color: wheat;
+}
 html {
   font-size: 14px;
 }
@@ -13,6 +16,11 @@ ul{
     font-size: 16px;
   }
 }
+div {
+
+  background-color: rgb(59, 7, 107);
+
+}
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
@@ -25,6 +33,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: rgb(31, 91, 143);
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {

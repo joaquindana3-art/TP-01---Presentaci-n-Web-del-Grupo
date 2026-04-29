@@ -5,8 +5,29 @@
  <link rel="stylesheet" href="wwwroot\css\site.css">
 
 </head>
+<body>
 <div class="text-center">
     <h1 class="display-4">Info de @ViewBag.integrante.getNombre()</h1>
     <img src="~/img/@ViewBag.integrante.getFoto()">
-    <p>@ViewBag.integrante.mostrarInfo()</p>
+    <ul>
+    
+    <li>Nombre: @ViewBag.integrante.getNombre()</li>
+    <li>DNI: @ViewBag.dni</li>
+    <li>Fecha de nacimiento: @ViewBag.integrante.getFechaNacimiento().Day / @ViewBag.integrante.getFechaNacimiento().Month / @ViewBag.integrante.getFechaNacimiento().Year</li>
+    <li>Familiares:
+        @for(int i = 0; i < ViewBag.integrante.getFamiliares().Count; i++) {
+
+            <p>@ViewBag.integrante.getFamiliares()[i]</p>
+
+        }
+    </li>
+    <li>Intereses:
+        @for(int i = 0; i < ViewBag.integrante.getIntereses().Count; i++) {
+
+            <p>@ViewBag.integrante.getIntereses()[i]</p>
+
+        }
+    </li>
+    </ul>
 </div>
+</body>

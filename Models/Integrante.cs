@@ -31,25 +31,21 @@ public class Integrante
 
     }
 
-    public string mostrarInfo() {
+    public DateTime getFechaNacimiento() {
 
-        string msg = "";
-        msg += "DNI: " + DNI;
-        msg += "\n Nombre: " + nombre;
-        msg += "\n Fecha de nacimiento: " + fechaDeNacimiento.Day + "/" + fechaDeNacimiento.Month + "/" + fechaDeNacimiento.Year;
-        msg += "\n Familiares: ";
-        for (int i = 0; i < familiares.Count; i++) {
+        return fechaDeNacimiento;
 
-            msg += familiares[i];
+    }
 
-        }
-        msg += "\n Intereses: ";
-        for (int i = 0; i < intereses.Count; i++) {
+    public List<string> getFamiliares() {
 
-            msg += intereses[i];
+        return familiares;
 
-        }
-        return msg;
+    }
+
+    public List<string> getIntereses() {
+
+        return intereses;
 
     }
 
